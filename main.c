@@ -1,10 +1,6 @@
 //tic tac toe game made using C-language
 //A 2d array as tictactoe board
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <time.h>
-
+#include "Headers.h"
 char board[3][3];
 const char PLAYER = 'X';
 const char COMPUTER = 'O';
